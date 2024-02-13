@@ -6,4 +6,4 @@ Then it prints out the table!
 
 ## How to use
 It's just a python file, so open up the terminal: 
-''' python3 path/to/multitable.py '''
+```python3 path/to/multitable.py ``` 
