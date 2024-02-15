@@ -1,4 +1,3 @@
-import pandas as pd 
 from tabulate import tabulate
 
 #creating a list of lists
@@ -18,8 +17,5 @@ for j in range(size) :
     multi_table.append(table)
     y = y + 1
 
-#converts the list of lists into a pandas data frame
-df = pd.DataFrame(multi_table)
-
 #prints out the table
-print(tabulate(df, tablefmt = 'simple_grid', showindex = False)) 
+print(tabulate(multi_table, tablefmt = 'simple_grid', showindex = False)) 
